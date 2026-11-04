@@ -1,0 +1,4 @@
+mlflow==3.18.0
+openai==2.54.0
+pandas==2.2.3
+reportlab==5.1.0

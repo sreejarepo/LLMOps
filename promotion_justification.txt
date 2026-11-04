@@ -1,0 +1,9 @@
+Prompt v3 (registry version 3) was promoted to the production alias because the promotion rule ranks the valid_json rate first and average cost second. Valid JSON rates were 0% for v1, 0% for v2 and 100% for v3. This matters because downstream code must parse every response.
+
+Average latency was 16.91 s for v1, 13.42 s for v2 and 4.48 s for v3. Average input tokens were 31, 53 and 87, and average output tokens were 500, 359 and 115. Average cost per request was 0.00002063, 0.00001540 and 0.00000634 USD. Version v3 generated the fewest output tokens and was also the fastest and cheapest, because output tokens are priced 2.0 times higher than input tokens and generation time grows with output length.
+
+On quality, v1 and v2 answers averaged 380 and 289 words of free text, while the v3 answer field averaged 44 words plus 3.0 key points and a confidence label (high 5). v3 is shorter but adds structure that v1 and v2 lack. These are measurable proxies, not a grade of correctness.
+
+The JSON guarantee did not cost extra here: v3 added 34 input tokens per request compared with v2, but its shorter outputs made it cheaper, so the structured format came with lower cost and latency.
+
+A valid JSON rate measured on five samples does not prove reliability at scale, so validity should be monitored, keeping v1 and v2 available for rollback through aliases.

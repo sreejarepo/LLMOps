@@ -1,0 +1,49 @@
+Q1: {
+  "answer": "Supervised learning involves training a model on labeled data to make predictions on new, unseen data. Unsupervised learning involves training a model on unlabeled data to identify patterns or relationships.",
+  "confidence": "high",
+  "key_points": [
+    "Supervised learning requires labeled data",
+    "Unsupervised learning does not require labeled data",
+    "Supervised learning is used for prediction, unsupervised learning is used for pattern identification"
+  ]
+}
+
+Q2: {
+  "answer": "Overfitting occurs when a model is too complex and learns the noise in the training data, resulting in poor performance on new, unseen data. To reduce overfitting, techniques such as regularization, data augmentation, and early stopping can be used.",
+  "confidence": "high",
+  "key_points": [
+    "Overfitting occurs when a model is too complex",
+    "Regularization can reduce overfitting",
+    "Data augmentation can reduce overfitting",
+    "Early stopping can reduce overfitting"
+  ]
+}
+
+Q3: {
+  "answer": "O(log n) because binary search divides the search space in half with each comparison.",
+  "confidence": "high",
+  "key_points": [
+    "Binary search has a time complexity of O(log n)",
+    "It divides the search space in half with each comparison",
+    "This is because with each comparison, the search space is reduced by half"
+  ]
+}
+
+Q4: {
+  "answer": "A process is an independent program that is executing within the operating system, while a thread is a subset of a process that can execute independently. A process has its own memory space, whereas threads share the same memory space as the parent process.",
+  "confidence": "high",
+  "key_points": [
+    "Process: independent program, own memory space",
+    "Thread: subset of a process, shares memory space with parent process"
+  ]
+}
+
+Q5: {
+  "answer": "The bias-variance tradeoff is a fundamental concept in machine learning that describes the relationship between the accuracy of a model and its complexity. A model with high bias is too simple and may not capture the underlying patterns in the data, resulting in high error rates. On the other hand, a model with high variance is too complex and may overfit the training data, resulting in poor performance on new, unseen data. The goal of machine learning is to find a balance between these two extremes, where the model has low bias and low variance.",
+  "confidence": "high",
+  "key_points": [
+    "High bias models are too simple and may not capture underlying patterns",
+    "High variance models are too complex and may overfit the training data",
+    "The goal is to find a balance between low bias and low variance"
+  ]
+}
