@@ -1,0 +1,16 @@
+prompt_version,question_id,correctness_rating,note
+v1,Q1,correct,"Accurate; clear examples (diabetes diagnosis, customer segments)."
+v1,Q2,partly correct,"Good coverage, but 'high variance ... such as those with many local minima' is a questionable explanation."
+v1,Q3,correct,O(log n) with halving argument and a correct code example.
+v1,Q4,wrong,Says threads share the same program counter and stack; each thread has its own.
+v1,Q5,correct,Correct tradeoff explanation; 'extremely high variance' for a neural network is overstated but not wrong.
+v2,Q1,correct,Accurate with a simple analogy suited to undergraduates.
+v2,Q2,correct,"Accurate causes and remedies (regularization, early stopping, augmentation, simpler model, more data)."
+v2,Q3,correct,Correct O(log n) explanation with a 1024-item example.
+v2,Q4,correct,Correctly says threads share memory/resources but have their own program counter and stack.
+v2,Q5,partly correct,"Correct definitions, but says the optimal model is 'at the intersection of the two curves'; it is the minimum of total error."
+v3,Q1,correct,Correct but brief; key_points restate the answer.
+v3,Q2,correct,Correct but brief; key_points mostly repeat the answer.
+v3,Q3,correct,Correct; third key point repeats the second.
+v3,Q4,partly correct,"Not wrong, but shallow: only memory space is contrasted; two key points; no mention of own stack/program counter."
+v3,Q5,partly correct,Says the goal is 'low bias and low variance'; the tradeoff means both cannot usually be minimised together. All v3 answers say confidence 'high'.
