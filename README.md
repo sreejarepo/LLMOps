@@ -46,6 +46,9 @@ Files:
 - [requirements.txt](requirements.txt)
 - [mlflow.db](mlflow.db) and [mlruns/](mlruns) (stored MLflow results)
 
+## Note on `report.pdf`
+The notebook's last cell generates a first draft of `report.pdf`; the submitted `report.pdf` is a revised version (answer-quality findings and evidence links added after reading all 15 answers). All figures are the same. Re-running that cell would overwrite the revised report with the draft.
+
 ## Environment
 - Python: 3.13.16
 - Libraries (same as [requirements.txt](requirements.txt)): mlflow==3.18.0, openai==2.54.0, pandas==2.2.3, reportlab==5.1.0
